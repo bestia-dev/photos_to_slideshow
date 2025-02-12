@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041-->
 [//]: # (auto_md_to_doc_comments segment start A)
 
 # photos_to_slideshow
@@ -11,7 +12,7 @@
 
  ![work_in_progress](https://img.shields.io/badge/work_in_progress-yellow)
  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/photos_to_slideshow/blob/master/LICENSE)
- ![photos_to_slideshow](https://bestia.dev/webpage_hit_counter/get_svg_image/1009748601.svg)
+ ![photos_to_slideshow](https://bestia.dev/webpage_hit_counter/get_svg_image/1647060273.svg)
 
 Hashtags: #english #photos  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
