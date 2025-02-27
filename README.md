@@ -26,6 +26,22 @@ The only thing that I really know about a photo is the moment it is taken.
 So I prefer to name the photos by date and time in this format `2025-12-31 23-59-59`.  
 But I want to know which photos are mine and which photos are from my friends. So I append a prefix "LF" to make the difference.
 
+# ffmpeg is great
+
+## install in debian
+
+sudo apt-get update
+sudo apt-get install ffmpeg
+
+## ffmpeg merge subtitles
+
+ffmpeg -i "LF2025-01-26 Egypt.mkv" -vf subtitles="LF2025-01-26 Egypt.srt:force_style='FontSize=28'" "LF2025-01-26 Egypt.mp4"
+
+## Cut mp3 file
+
+ffmpeg -ss 462 -i "input.mp3" -acodec copy "output.mp3"
+
+
 ## Open-source and free as a beer
 
 My open-source projects are free as a beer (MIT license).  
